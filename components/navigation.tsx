@@ -39,7 +39,9 @@ export function Navigation() {
             </li>
           ))}
           <li className="flex items-center">
-            <Linkedin className="mr-4 h-4 w-4 shrink-0 text-blue-600" />
+            <div className="mr-4 w-2 flex justify-center items-center">
+              <Linkedin className="h-4 w-4 shrink-0 text-blue-600" />
+            </div>
             <Link
               href="https://www.linkedin.com/in/royandre/"
               target="_blank"
