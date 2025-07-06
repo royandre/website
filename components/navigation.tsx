@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
+import { Linkedin } from "lucide-react"
 import { navItems } from "@/lib/nav-links"
 import { QuoteSection } from "./quote-section"
 
@@ -37,6 +38,17 @@ export function Navigation() {
               </Link>
             </li>
           ))}
+          <li className="flex items-center">
+            <Linkedin className="mr-4 h-4 w-4 shrink-0 text-blue-600" />
+            <Link
+              href="https://www.linkedin.com/in/royandre/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              LinkedIn
+            </Link>
+          </li>
         </ul>
       </nav>
       <div>
