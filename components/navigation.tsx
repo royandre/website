@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
-import { Linkedin } from "lucide-react"
+import { Linkedin, Instagram } from "lucide-react"
 import { navItems } from "@/lib/nav-links"
 import { QuoteSection } from "./quote-section"
 
@@ -38,17 +38,30 @@ export function Navigation() {
               </Link>
             </li>
           ))}
-          <li className="flex items-center">
+          <li className="flex items-center group">
             <div className="mr-4 w-2 flex justify-center items-center">
-              <Linkedin className="h-4 w-4 shrink-0 text-blue-600" />
+              <Linkedin className="h-4 w-4 shrink-0 text-blue-600 transition-all duration-300 group-hover:scale-110 group-hover:text-blue-700 group-hover:drop-shadow-sm" />
             </div>
             <Link
               href="https://www.linkedin.com/in/royandre/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="hover:underline transition-colors duration-300 group-hover:text-blue-700"
             >
               LinkedIn
+            </Link>
+          </li>
+          <li className="flex items-center group">
+            <div className="mr-4 w-2 flex justify-center items-center">
+              <Instagram className="h-4 w-4 shrink-0 text-pink-600 transition-all duration-300 group-hover:scale-110 group-hover:text-pink-700 group-hover:drop-shadow-sm" />
+            </div>
+            <Link
+              href="https://www.instagram.com/royandretroll"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline transition-colors duration-300 group-hover:text-pink-700"
+            >
+              Instagram
             </Link>
           </li>
         </ul>

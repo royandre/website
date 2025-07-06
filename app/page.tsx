@@ -5,7 +5,8 @@ export default function HomePage() {
     <div className="min-h-screen bg-slate-50 -mx-6 -my-8 md:-mx-8 md:-my-12 px-6 py-8 md:px-8 md:py-12">
       <div className="space-y-16">
         <section>
-          <h1 className="text-4xl font-bold mb-4">Hi, I'm Roy-André</h1>
+          <h1 className="text-4xl font-bold mb-2">Hi, I'm Roy-André</h1>
+          <p className="text-xl text-neutral-600 mb-6 font-medium">Professional nerd</p>
           <div className="space-y-4 text-lg text-neutral-700">
             <p>
               I'm a technologist, entrepreneur, and investor based in Sandnes, Norway. I enjoy building products and
@@ -39,9 +40,7 @@ export default function HomePage() {
                   Investing
                 </Link>
               </h3>
-              <p className="text-neutral-600">
-                Supporting exciting companies with capital and mentorship.
-              </p>
+              <p className="text-neutral-600">Supporting exciting companies with capital and mentorship.</p>
             </div>
             <div className="space-y-1">
               <h3 className="text-lg font-semibold">
