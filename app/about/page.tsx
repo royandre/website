@@ -1,5 +1,10 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "About – Roy-André",
+}
 
 export default function AboutPage() {
   return (
@@ -80,16 +85,24 @@ export default function AboutPage() {
           <a href="https://www.flowretail.com" target="_blank" rel="noopener noreferrer">
             Flow Retail
           </a>
-          , where we build a tech-savvy top modern commerce platform, Flow Retail POS Commerce, for professional retailers. We also have an e-commerce division in Flow Retail, where we delivery world-class e-commerce sites on both <a href="https://www.shopware.com/">Shopware</a> and <a href="https://www.shopify.com">Shopify</a>. I am also the Chairman of the Board, aaand the largest investor in the company.
+          , where we build a tech-savvy top modern commerce platform, Flow Retail POS Commerce, for professional
+          retailers. We also have an e-commerce division in Flow Retail, where we delivery world-class e-commerce sites
+          on both <a href="https://www.shopware.com/">Shopware</a> and <a href="https://www.shopify.com">Shopify</a>. I
+          am also the Chairman of the Board, aaand the largest investor in the company.
         </p>
         <p>
-          I am the e-commerce manager and major owner (alongside my wife, plus another great technologist) in <a href="https://www.sensegarn.no/">Sense Garn</a>, Norway's best e-commerce site within yarn and knitting. Sense Garn consists of both a beautiful and inspiring physical store in Sandnes (of course running <a href="https://www.flowretail.com/">Flow Retail POS</a>, alongside the Shopware-based e-commerce site.
-        </p>
-        <p>I am also heavily involved in <a href="https://www.norwaychess.com/">Norway Chess</a>, the world's most prestigiuos chess tournament, both as one of the owners, and as sitting in the Board of Directors. My skills in terms of playing chess is extremely limited even though I play a bit practically every day, and so for the most I focus on the technical parts of the tournament, plus strategy, etc.
+          I am the e-commerce manager and major owner (alongside my wife, plus another great technologist) in{" "}
+          <a href="https://www.sensegarn.no/">Sense Garn</a>, Norway's best e-commerce site within yarn and knitting.
+          Sense Garn consists of both a beautiful and inspiring physical store in Sandnes (of course running{" "}
+          <a href="https://www.flowretail.com/">Flow Retail POS</a>, alongside the Shopware-based e-commerce site.
         </p>
         <p>
-          In general I do lots of advisory, both directly 1:1, to teams and through advisory boards.
+          I am also heavily involved in <a href="https://www.norwaychess.com/">Norway Chess</a>, the world's most
+          prestigiuos chess tournament, both as one of the owners, and as sitting in the Board of Directors. My skills
+          in terms of playing chess is extremely limited even though I play a bit practically every day, and so for the
+          most I focus on the technical parts of the tournament, plus strategy, etc.
         </p>
+        <p>In general I do lots of advisory, both directly 1:1, to teams and through advisory boards.</p>
         <p>
           For companies like W3Schools we have developed and delivers their billing platform, which handles tens of
           thousands of users. Yet another "side-project".
@@ -118,7 +131,10 @@ export default function AboutPage() {
           architect" in the companies I have control over. My only rule: Become friend with the CFO and make sure there
           is no budget.
         </p>
-        <p>In my earlier days, I ran a few BBS'es (Bulletin Board System), where I semi-proudly served pira.. err, shareware and such. I also ran a Norwegian underground site back in the 90s, called Radikal, later Norsk Undergrunn, and later Root.no. For those old enough to remember those times - you're lucky!
+        <p>
+          In my earlier days, I ran a few BBS'es (Bulletin Board System), where I semi-proudly served pira.. err,
+          shareware and such. I also ran a Norwegian underground site back in the 90s, called Radikal, later Norsk
+          Undergrunn, and later Root.no. For those old enough to remember those times - you're lucky!
         </p>
         <p>
           Naturally, I have also been a CEO for many years, CTO, plus had similar leadership roles over many years,

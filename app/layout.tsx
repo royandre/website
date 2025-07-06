@@ -8,7 +8,7 @@ import { MobileHeader } from "@/components/mobile-header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "André Trollås",
+  title: "Roy-André",
   description: "Building companies and products. Investing in people and technology.",
     generator: 'v0.dev'
 }
@@ -34,6 +34,25 @@ export default function RootLayout({
             </div>
           </div>
         </div>
+        <footer className="border-t border-neutral-200 py-8">
+          <div className="container mx-auto px-4">
+            <p className="text-sm text-neutral-600 text-left">
+              Website made by Roy-André, together with AI-friends at{" "}
+              <a href="https://www.vercel.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Vercel
+              </a>{" "}
+              /{" "}
+              <a href="https://v0.dev" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                v0.dev
+              </a>
+              .{" "}
+              <a href="https://rsms.me/inter/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Inter font by Rasmus Andersson
+              </a>
+              .
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   )

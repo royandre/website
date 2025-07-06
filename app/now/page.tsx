@@ -1,4 +1,9 @@
+import type { Metadata } from "next"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Now – Roy-André",
+}
 
 export default function NowPage() {
   return (
@@ -12,7 +17,9 @@ export default function NowPage() {
         <ul>
           <li>
             <strong>Building up a few new companies, </strong>working mainly within the areas of commerce and outdoor
-            events. CEO of Flow Retail, building and delivering world-class retail solutions like our own Flow Retail POS platform for physical retailers, plus building and delivering e-commerce sites on Shopware and Shopify to professional online retailers
+            events. CEO of Flow Retail, building and delivering world-class retail solutions like our own Flow Retail
+            POS platform for physical retailers, plus building and delivering e-commerce sites on Shopware and Shopify
+            to professional online retailers
           </li>
           <li>
             <strong>Various super-excited day to day tasks</strong> with a dozen of the startups I am heavily involved
@@ -25,7 +32,8 @@ export default function NowPage() {
           </li>
           <li>
             Leading <strong>Advisory Boards</strong> and member of <strong>Board of Directors</strong> in various
-            tech-related companies. Also in the Board in <a href="https://www.norwaychess.com/">Norway Chess</a>, where I am also a shareholder
+            tech-related companies. Also in the Board in <a href="https://www.norwaychess.com/">Norway Chess</a>, where
+            I am also a shareholder
           </li>
           <li>
             Actively <strong>investing</strong> in <strong>tech companies</strong> making unique stuff
@@ -56,7 +64,8 @@ export default function NowPage() {
             coach for children (5-8 years) in Norway, becoming a better coach for my son (Jonathan, 5)'s team
           </li>
           <li>
-            <strong>Taking</strong> professional <strong>piano class hours</strong> together with one of my daughters, personally to try to make my{" "}
+            <strong>Taking</strong> professional <strong>piano class hours</strong> together with one of my daughters,
+            personally to try to make my{" "}
             <a href="https://www.roland.com/no/products/fp_series/fp-90/" target="_blank" rel="noopener noreferrer">
               Roland FP-90
             </a>{" "}

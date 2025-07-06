@@ -1,16 +1,21 @@
+import type { Metadata } from "next"
 import Image from "next/image"
+
+export const metadata: Metadata = {
+  title: "Advisory – Roy-André",
+}
 
 export default function AdvisoryPage() {
   return (
     <div className="min-h-screen">
       {/* Image positioned above and outside the Advisory section */}
-      <div className="mb-8">
+      <div className="mb-12">
         <Image
           src="/images/advisory-photo.avif"
           alt="Roy-André in advisory meeting"
           width={800}
           height={400}
-          className="rounded-lg object-cover w-full"
+          className="rounded-lg object-cover w-full h-64"
         />
       </div>
 

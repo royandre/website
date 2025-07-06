@@ -35,9 +35,7 @@ export function AnimatedTitle({ text, className = "" }: AnimatedTitleProps) {
       {displayText}
       <span
         className={`inline-block w-0.5 h-6 bg-neutral-600 ml-1 ${showCursor ? "opacity-100" : "opacity-0"} transition-opacity duration-100`}
-      >
-        |
-      </span>
+      />
     </p>
   )
 }

@@ -23,7 +23,7 @@ export function Navigation() {
   const pathname = usePathname()
 
   return (
-    <div className="space-y-10 sticky top-20">
+    <div className="space-y-10 sticky top-20 navigation">
       <nav>
         <ul className="space-y-2 text-lg">
           {navItems.map((item) => (
