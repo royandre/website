@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { AnimatedTitle } from "@/components/animated-title"
 
 export default function HomePage() {
   return (
@@ -6,7 +7,7 @@ export default function HomePage() {
       <div className="space-y-16">
         <section>
           <h1 className="text-4xl font-bold mb-2">Hi, I'm Roy-André</h1>
-          <p className="text-xl text-neutral-600 mb-6 font-medium">Professional nerd</p>
+          <AnimatedTitle text="Professional nerd" className="text-xl text-neutral-600 mb-6 font-medium" />
           <div className="space-y-4 text-lg text-neutral-700">
             <p>
               I'm a technologist, entrepreneur, and investor based in Sandnes, Norway. I enjoy building products and
