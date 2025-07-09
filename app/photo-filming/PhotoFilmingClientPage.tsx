@@ -27,10 +27,8 @@ export default function PhotoFilmingClientPage() {
         </h3>
         <ul>
           <li>Interviews</li>
-          <li>Ads</li>
           <li>Case studies</li>
           <li>Factories & production</li>
-          <li>Various</li>
           <li>Air drone filming</li>
           <li>Underwater drone filming</li>
         </ul>
@@ -61,19 +59,21 @@ export default function PhotoFilmingClientPage() {
           <li>
             <strong>Lenses</strong>
             <ul>
-              <li>Canon RF 70-200 f/4 IS USM</li>
-              <li>Canon RF 100-500 f/4.5-7.1L IS USM</li>
-              <li>Sigma 70-200mm f/2.8</li>
-              <li>Sigma 18-35mm f/1.8</li>
-              <li>Sigma 14-24mm f/2,8 wide angel lens</li>
-              <li>Canon EF-S 10-18 lens</li>
+              <li>Canon RF 24-70 f/2.8 – <em>Standard zoom lens</em></li>
+              <li>Canon RF 70-200 f/4 – <em>Telephoto zoom lens</em></li>
+              <li>Canon RF 100-500 f/4.5-7.1 – <em>Super telephoto zoom lens</em></li>
+              <li>Sigma EF 70-200mm f/2.8 – <em>Telephoto zoom lens</em></li>
+              <li>Sigma EF 18-35mm f/1.8 – <em>Wide-angle to standard zoom lens</em></li>
+              <li>Sigma EF 14-24mm f/2.8 wide angle lens – <em>Ultra wide-angle zoom lens</em></li>
+              <li>Canon EF-S 10-18 – <em>Ultra wide-angle zoom lens</em></li>
+              <li>Canon RF 2x tele extender – <em>Teleconverter</em></li>
             </ul>
           </li>
           <li>
             <strong>Drones</strong>
             <ul>
               <li>DJI Mini 3 Pro</li>
-              <li>Blueeye Pioneer underwater drone</li>
+              <li><a href="https://www.blueye.no/">Blueye</a> Pioneer underwater drone</li>
             </ul>
           </li>
           <li>
@@ -81,12 +81,13 @@ export default function PhotoFilmingClientPage() {
             <ul>
               <li>RS 3 Pro gimbal</li>
               <li>Nucleus Nano focus</li>
+              <li>+ tons of more stuff</li>
             </ul>
           </li>
           <li>
-            <strong>Sound</strong>
+            <strong>Microphones</strong>
             <ul>
-              <li>Sennheiser MKE600 mic</li>
+              <li>Sennheiser MKE 600 mic</li>
               <li>RØDE Wireless GO2 mics</li>
             </ul>
           </li>
